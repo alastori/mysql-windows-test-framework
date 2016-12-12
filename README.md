@@ -15,7 +15,7 @@ Sometimes you want to compare the response time of some queries between MySQL ve
 ## How to use
 
 1. Download mysql-5.6 and mysql-5.7 binaries for windows 64-bit (zip) and unzip in convenient folders (ex: ```D:\win-mysql\mysql-advanced-5.6.34-winx64``` and ```D:\win-mysql\mysql-advanced-5.7.16-winx64```);
-2. Download this repo in another convenient folder;
+2. [Download this repo](https://github.com/alastori/mysql-windows-test-framework/archive/master.zip) in another convenient folder;
 3. Edit ```setenv-mysql56.bat``` and ```setenv-mysql57.bat``` files with your correct paths; optionally edit ```my_5.6.ini``` and ```my_5.7.ini``` files with your own options;
 4. In command line, run ```prepare.bat``` - this will take some time, but will create the MySQL sandbox instances for you (aka initialize the datadir);
 5. Replace the files ```create-user.sql```,  ```dump.sql``` and ```query.sql``` files with the data and query(ies) you want to benchmark;
